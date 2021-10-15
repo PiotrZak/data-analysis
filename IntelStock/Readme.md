@@ -23,7 +23,7 @@ ____
 Dataset structure:
 ![image description](forecast.png)
 
-Assumptions:
+Conclusions:
 
 - the forecasts are approximate
 - do not take anomalies into account (eg. Covid)
