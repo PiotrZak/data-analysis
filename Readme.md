@@ -1,4 +1,4 @@
-<h1>Repository for data analysis aggregation</h1>
+<h1>Repository for data analysis</h1>
 
 <h2>15.10.2020</h2>
 
@@ -17,8 +17,8 @@ The models accuracy:
  - CART (Classification and Regression Trees)
  - SVR (Support Vector Regression)
 ____
--  LR : 0.999999 (0.000000)
--  LASSO : 0.999999 (0.000000)
--  EN : 0.999999 (0.000000)
--  KNN : 1.000000 (0.000000)
--  CART : 1.000000 (0.000000)
+- LR : 0.693032 (0.022546)
+- LASSO : 0.693032 (0.022546)
+- EN : 0.693032 (0.022546)
+- KNN : 0.998804 (0.000182)
+- CART : 0.998538 (0.000311)
