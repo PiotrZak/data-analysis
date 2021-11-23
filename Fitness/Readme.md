@@ -1,4 +1,4 @@
-1. Forbes top earnings 
+1. Fitness analysis
 
 Assumptions:
 
