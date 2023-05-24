@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/untitled/src/main/scala/Main.scala:1:8: object SparkSession is not a member of package org.apache.spark.sql[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/untitled/src/main/scala/Main.scala:12:5: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
