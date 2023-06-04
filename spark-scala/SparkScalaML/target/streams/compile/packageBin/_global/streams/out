@@ -1,1 +1,19 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/sparkscalaml_2.11-1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/sparkscalaml_2.11-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataSourcer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/DataSourcer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SparkSessionCreator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/SparkSessionCreator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ModelTrain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/ModelTrain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataSourcer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/DataSourcer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ModelTrain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/ModelTrain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SparkSessionCreator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/SparkSessionCreator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

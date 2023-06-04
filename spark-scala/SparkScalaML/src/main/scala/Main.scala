@@ -20,13 +20,15 @@ object SparkSessionCreator {
   object ModelTrain {
 
     def main(args: Array[String]): Unit = {
+
       // create spark session
       val spark = SparkSessionCreator.sparkSessionCreate()
+      // train data
+      val rawTrainData = DataSourcer.rawTrainData(sparkSession = spark)
 
-      val df = spark.createDataFrame(
-        List(("Scala", 25000), ("Spark", 35000), ("PHP", 21000)))
-
-      df.show()
+      //      val df = spark.createDataFrame(
+      //        List(("Scala", 25000), ("Spark", 35000), ("PHP", 21000)))
+      //df.show()
 
       // train data
 
