@@ -26,9 +26,9 @@ object SparkSessionCreator {
       // train data
       val rawTrainData = DataSourcer.rawTrainData(sparkSession = spark)
 
-      //      val df = spark.createDataFrame(
-      //        List(("Scala", 25000), ("Spark", 35000), ("PHP", 21000)))
-      //df.show()
+      rawTrainData.show()
+
+
 
       // train data
 
