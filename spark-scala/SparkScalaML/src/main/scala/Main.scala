@@ -25,16 +25,9 @@ object SparkSessionCreator {
       val spark = SparkSessionCreator.sparkSessionCreate()
       // train data
       val rawTrainData = DataSourcer.rawTrainData(sparkSession = spark)
-
-      rawTrainData.show()
-
+      val cleanTrainData = DataCleaner.cleanData(dataFrame = rawTrainData)
 
 
-      // train data
-
-//      val rawTrainData = DataSourcer.rawTrainData(sparkSession = spark)
-//      // clean train data
-//      val cleanTrainData = DataCleaner.cleanData(dataFrame = rawTrainData)
 //      // feature data
 //      val featureTrainData = FeatureEngineering.featureData(dataFrame = cleanTrainData)
 //      // fitted pipeline

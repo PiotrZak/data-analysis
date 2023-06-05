@@ -6,7 +6,7 @@ Checking Java Versions (20.0.1, 17.0.7)
 
 Changing Java Version:
 
-- export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+- export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 ___
 - Scala version 2.12.17,

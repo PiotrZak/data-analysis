@@ -8,10 +8,15 @@ object DataSourcer {
   // proportion is usually 70% to 30% for train and test
   def rawTrainData(sparkSession: SparkSession): DataFrame = {
 
-    val pathToCSV = "./src/data/Books/books.csv";
-    print("Reading CSV file from: " + pathToCSV + "Is file exist on path: " + scala.reflect.io.File(pathToCSV).exists);
+    val pathToBooksCSV = "./src/data/Books/books.csv";
+    val pathToBankingCSV = "./src/data/Banking/train.csv";
 
-    sparkSession.read.option("header", "true").csv(pathToCSV)
+    print("Reading CSV file from: " + pathToBankingCSV + "Is file exist on path: " + scala.reflect.io.File(pathToBankingCSV).exists);
+
+    sparkSession.read
+      .option("header", "true")
+      .option("sep", ";")
+      .csv(pathToBankingCSV)
 
   }
 }
