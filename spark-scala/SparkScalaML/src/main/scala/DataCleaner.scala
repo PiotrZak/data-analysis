@@ -13,9 +13,9 @@ object DataCleaner {
       dataFrame
         .withColumn("age", dataFrame("age").cast("Int"))
         .withColumn("job", dataFrame("job").cast("String"))
-        .withColumn("balance", dataFrame("balance").cast("Int"))
+        .withColumn("balance", dataFrame("balance").cast("Double"))
         .withColumn("marital", dataFrame("marital").cast("String"))
-        .withColumn("education", dataFrame("education").cast("Int"))
+        .withColumn("education", dataFrame("education").cast("String"))
         .withColumn("housing", dataFrame("housing").cast("String"))
         .withColumn("loan", dataFrame("loan").cast("String"))
     }
@@ -28,7 +28,7 @@ object DataCleaner {
     val outputData = formattedData
       .na.fill(Map(
         "age" -> meanAge(formattedData).toInt))
-      .drop("default", "contact", "day", "month", "duration", "campaign", "pdays", "previous", "poutcome")
+      .drop("default", "contact", "day", "month", "duration", "campaign", "pdays", "previous", "poutcome", "y")
 
     outputData
   }

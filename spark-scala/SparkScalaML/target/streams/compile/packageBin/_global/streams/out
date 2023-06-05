@@ -8,8 +8,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/SparkSessionCreator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	DataCleaner$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/DataCleaner$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FeatureEngineering$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/FeatureEngineering$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ModelTrain$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/ModelTrain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FeatureEngineering.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/FeatureEngineering.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	DataSourcer$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/target/scala-2.11/classes/DataSourcer$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ModelTrain.class[0m

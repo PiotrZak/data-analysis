@@ -21,19 +21,15 @@ object SparkSessionCreator {
 
     def main(args: Array[String]): Unit = {
 
-      // create spark session
       val spark = SparkSessionCreator.sparkSessionCreate()
-      // train data
       val rawTrainData = DataSourcer.rawTrainData(sparkSession = spark)
       val cleanTrainData = DataCleaner.cleanData(dataFrame = rawTrainData)
+      val featureTrainData = FeatureEngineering.featureData(dataFrame = cleanTrainData)
 
+      featureTrainData.show()
 
-//      // feature data
-//      val featureTrainData = FeatureEngineering.featureData(dataFrame = cleanTrainData)
-//      // fitted pipeline
-//      val fittedPipeline = MachineLearning.pipelineFit(dataFrame = featureTrainData)
-//      // save fitted pipeline
-//      OutputSaver.pipelineSaver(pipelineModel = fittedPipeline)
+      // 05.06.2023 - Process with Machine Learning for predict one of feature based on rest.
+      // eg. if some have this balance and this job, and this maritial status - if this person will have loan?
 
     }
   }
