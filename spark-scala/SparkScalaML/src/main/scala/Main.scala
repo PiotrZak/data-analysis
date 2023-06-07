@@ -28,8 +28,41 @@ object SparkSessionCreator {
 
       featureTrainData.show()
 
-      // 05.06.2023 - Process with Machine Learning for predict one of feature based on rest.
-      // eg. if some have this balance and this job, and this maritial status - if this person will have loan?
+      val fittedPipeline = MachineLearning.pipelineFit(dataFrame = featureTrainData)
 
+      // save fitted pipeline
+      fittedPipeline
+        .write
+        .overwrite()
+        .save("./pipelines/fitted-pipeline")
     }
   }
+
+
+//def predictionSave(dataFrame:DataFrame): Unit = {
+//
+//   if user survived at titanic?
+//   if user have loan?
+//   if this book is good recommendation?
+//   if this user will buy this product?
+//   if this user will click this ad?
+//   if this user will like this movie?
+//   if this user will like this song?
+//   if this user will like this video?
+//   if this user will like this article?
+//   if this user will like this post?
+//   if this user will like this comment?
+//
+//}
+
+//object ModelPredict {
+//
+//  def main(args: Array[String]): Unit = {
+//    // create spark session
+//    val spark = SparkSessionCreator.sparkSessionCreate()
+//    val rawTestData = DataSourcer.rawTestData(sparkSession = spark)
+//    val cleanTestData = DataCleaner.cleanData(dataFrame = rawTestData)
+//    val featureTestData = FeatureEngineering.featureData(dataFrame = cleanTestData)
+//  }
+//
+//}

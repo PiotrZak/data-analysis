@@ -12,3 +12,12 @@ ___
 - Scala version 2.12.17,
 - Spark version 3.4.0
 - Java version 1.8 (another not compatible with Spark 3.4.0)
+
+
+Spark Pipeline:
+
+https://blog.insightdatascience.com/spark-pipelines-elegant-yet-powerful-7be93afcdd42
+
+Example Spark Pipeline:
+
+![examplePipeline.png](examplePipeline.png)

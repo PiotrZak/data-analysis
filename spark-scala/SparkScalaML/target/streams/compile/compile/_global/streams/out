@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/src/main/scala/FeatureEngineering.scala:38:39: reassignment to val[0m
-[0m[[0m[31merror[0m] [0m[0m    val data = ageBucketizer(dataFrame=dataFrame)[0m
-[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/piotrzak/Documents/GitHub/data-analysis/spark-scala/SparkScalaML/src/main/scala/DataCleaner.scala:20:29: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m        .withColumn("loan", when(dataFrame("loan") === "Yes", 1).otherwise(0))[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

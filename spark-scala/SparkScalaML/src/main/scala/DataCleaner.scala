@@ -1,7 +1,7 @@
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.functions.lit
-
+import org.apache.spark.sql.functions._
 
 
 object DataCleaner {
@@ -17,7 +17,8 @@ object DataCleaner {
         .withColumn("marital", dataFrame("marital").cast("String"))
         .withColumn("education", dataFrame("education").cast("String"))
         .withColumn("housing", dataFrame("housing").cast("String"))
-        .withColumn("loan", dataFrame("loan").cast("String"))
+        .withColumn("loan", when(dataFrame("loan") === "Yes", 1).otherwise(0))
+        .withColumnRenamed("loan", "label")
     }
 
     def meanAge(dataFrame: DataFrame): Double = {

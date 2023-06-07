@@ -21,7 +21,7 @@ object FeatureEngineering {
 
     def balanceBucketizer(dataFrame: DataFrame): DataFrame = {
 
-      val balanceSplits = Array(-1000.0, -200.0, 0.0, 1000, 5000.0, 10000.0, 50000.0)
+      val balanceSplits = Array(-50000.0, -10000.0, -1000.0, -200.0, 0.0, 1000, 5000.0, 10000.0, 50000.0, 100000.0, 500000.0)
 
       val balanceBucketizer = new Bucketizer()
         .setInputCol("balance")
