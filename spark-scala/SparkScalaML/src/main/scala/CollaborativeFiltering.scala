@@ -98,7 +98,6 @@ object CollaborativeFiltering {
     // (...) - and another 10 recommendations
 
     // Generate top 10 user recommendations for each book
-
     val bookRecs = alsModel.recommendForAllItems(10)
     bookRecs.show(10, false)
 
