@@ -6,7 +6,6 @@ object Main {
   }
 }
 
-
 object SparkSessionCreator {
   def sparkSessionCreate(): SparkSession = {
     SparkSession

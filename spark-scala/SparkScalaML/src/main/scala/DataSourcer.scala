@@ -11,12 +11,12 @@ object DataSourcer {
     val pathToBooksCSV = "./src/data/Books/books.csv";
     val pathToBankingCSV = "./src/data/Banking/train.csv";
 
-    print("Reading CSV file from: " + pathToBankingCSV + "Is file exist on path: " + scala.reflect.io.File(pathToBankingCSV).exists);
+    print("Reading CSV file from: " + pathToBooksCSV + "Is file exist on path: " + scala.reflect.io.File(pathToBankingCSV).exists);
 
     sparkSession.read
       .option("header", "true")
       .option("sep", ";")
-      .csv(pathToBankingCSV)
+      .csv(pathToBooksCSV)
 
   }
 }
